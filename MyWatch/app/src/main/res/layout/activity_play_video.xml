@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PlayVideoActivity">
+
+<com.google.android.youtube.player.YouTubePlayerView
+    android:id="@+id/myYouTube"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+</com.google.android.youtube.player.YouTubePlayerView>
+
+    <TextView
+        android:id="@+id/nameVideo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tên video"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="7dp"
+        android:textColor="#E9474545"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/ngay"
+        android:textColor="#B9474545"
+        android:textSize="13sp"
+        android:layout_marginLeft="10dp"
+        android:text="Ngay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tenKenh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tên kênh"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="7dp"
+        android:textColor="#E9474545"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+</LinearLayout>
